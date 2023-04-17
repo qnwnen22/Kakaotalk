@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Jamesnet.Wpf.Controls;
+using Kakao.Core.Names;
 using Prism.Ioc;
 using Prism.Regions;
 
@@ -20,8 +21,8 @@ namespace KaKao.Login.Local.ViewModels
         [RelayCommand]
         private void Login()
         {
-            IRegion mainRegion = _regionManager.Regions["MainRegion"];
-            IViewable friendContent = _containerProvider.Resolve<IViewable>("FriendContent");
+            IRegion mainRegion = _regionManager.Regions[RegionNameManager.MainRegion];
+            IViewable friendContent = _containerProvider.Resolve<IViewable>(ContentNameManager.Friends);
 
             if (!mainRegion.Views.Contains(friendContent))
             {
