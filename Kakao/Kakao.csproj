@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KaKao.Forms\KaKao.Forms.csproj" />
+    <ProjectReference Include="..\KaKao.Login\KaKao.Login.csproj" />
   </ItemGroup>
 
 </Project>
