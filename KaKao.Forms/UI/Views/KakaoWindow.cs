@@ -1,9 +1,10 @@
-﻿using System.Windows;
+﻿using Jamesnet.Wpf.Controls;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace KaKao.Forms.UI.Views
 {
-    public class KakaoWindow : Window
+    public class KakaoWindow : JamesWindow
     {
         static KakaoWindow()
         {
