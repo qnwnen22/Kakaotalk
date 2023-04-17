@@ -3,7 +3,7 @@ using System.Windows.Controls;
 
 namespace KaKao.Forms.UI.Views
 {
-    public class KakaoWindow : Control
+    public class KakaoWindow : Window
     {
         static KakaoWindow()
         {

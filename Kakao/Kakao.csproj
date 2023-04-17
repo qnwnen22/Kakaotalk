@@ -7,4 +7,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KaKao.Forms\KaKao.Forms.csproj" />
+  </ItemGroup>
+
 </Project>
