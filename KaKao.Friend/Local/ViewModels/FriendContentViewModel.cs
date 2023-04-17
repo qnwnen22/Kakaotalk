@@ -11,7 +11,7 @@ namespace KaKao.Friend.Local.ViewModels
         }
 
         [RelayCommand]
-        private void Login()
+        private void Logout()
         {
 
         }
