@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\KaKao.Forms\KaKao.Forms.csproj" />
   </ItemGroup>
 
