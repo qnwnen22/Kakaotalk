@@ -1,11 +1,11 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
-namespace KaKao.Login.Local.ViewModels
+namespace KaKao.Friend.Local.ViewModels
 {
-    public partial class LoginContentViewModel : ObservableObject
+    public partial class FriendContentViewModel : ObservableObject
     {
-        public LoginContentViewModel()
+        public FriendContentViewModel()
         {
 
         }
